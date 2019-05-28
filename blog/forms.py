@@ -14,3 +14,5 @@ class CommentForm(forms.Form):
             "placeholder": "Leave a comment!"
         }
     ))
+
+def blog_detail
