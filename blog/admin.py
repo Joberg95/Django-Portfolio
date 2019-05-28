@@ -4,7 +4,7 @@ from blog.models import Post, Category
 class PostAdmin(admin.ModelAdmin):
     pass
 
-class Category(admin.ModelAdmin):
+class CategoryAdmin(admin.ModelAdmin):
     pass
 
 admin.site.register(Post, PostAdmin)
